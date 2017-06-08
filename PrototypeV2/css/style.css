@@ -1,0 +1,283 @@
+@media (min-width: 768px) { .container { max-width: 992px; } }
+body{
+  background-color: #fcfcf9;
+}
+.navbar-brand{
+  padding: 5px 15px;
+}
+.navbar-brand img {
+  height: 40px;
+}
+.navbar{
+  box-shadow: #8c8c8c 0px 0px 5px;
+}
+.banner-row{
+  margin-bottom: 20px;
+}
+.coupon-row .col-md-4{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.coupon-row .panel{
+  border: 1px solid;
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+  border-radius: 3px;
+  height: 160px;
+  cursor: pointer;
+  transition: .4s box-shadow;
+}
+
+.coupon-row .panel:hover{
+  box-shadow: grey 0px 5px 10px;
+}
+
+.coupon-img{
+  float: left;
+    display: inline-block;
+    width: 40%;
+}
+.coupon-desc{
+  float: right;
+  display: inline-block;
+  width: 60%;
+}
+.coupon-desc .coupon-offer-desc{
+  display: block;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  color: #08b4df;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.coupon-desc .coupon-offer-brand{
+  display: block;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  color: #444;
+  font-size: 16px;
+}
+
+.sprite-pod.circle{
+  width: 26px;
+    height: 26px;
+    visibility: visible;
+    background-color: #08b4df;
+    position: absolute;
+    bottom: 32px;
+    right: -2px;
+    background-repeat: no-repeat;
+    background-position: right 0;
+}
+
+.corner-plus {
+    color: #fff;
+    font-size: 23px;
+    font-family: "Helvetica Neue";
+    position: absolute;
+    top: -5px;
+    left: 6px;
+  }
+
+#footer{
+  background-color: #f8f8f8;
+color: #000;
+padding-top: 10px;
+border-top: #cfcfcd 1px solid;
+}
+
+.bg-blue{
+  font-size: 24px;
+  color: #08b4df;
+}
+
+.ml50{
+  margin-left: 50px;
+}
+
+.fb-login {
+    background: #3b5998 url(//cdn.cpnscdn.com/static.coupons.com/Sites/img/urban/sprite_icon_21.png) no-repeat 15px -30px;
+    cursor: pointer;
+    border: 0;
+    padding-right: 0;
+    text-align: left;
+    height: 40px;
+    width: 213px;
+    border-radius: 3px;
+}
+
+.fb-text {
+    border-left: 1px solid #fcfcf9;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-left: 35px;
+    padding: 13px 0 13px 14px;
+    text-align: left;
+  }
+
+.separator p {
+      position: absolute;
+      top: 75px;
+      left: 45%;
+      padding: 0 10px;
+      background-color: #fcfcf9;
+  }
+
+.txt-lg {
+    font-size: 13px;
+    color: #444;
+}
+
+.input-email, .input-pwd {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    color: rgba(0,0,0,0.75);
+    display: block;
+    margin: 0 0 -4px 0;
+    transition: all .15s linear;
+    width: 240px;
+    height: 18px;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.btn-cta {
+    background: #08b4df;
+    border: 0;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+    letter-spacing: 0;
+}
+.rememme{
+  margin: 8px 0px;
+}
+
+
+
+.tile-progress {
+background-color: #303641;
+color: #fff;
+}
+.tile-progress {
+background: #00a65b;
+color: #fff;
+margin-bottom: 20px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-background-clip: padding-box;
+-moz-background-clip: padding;
+background-clip: padding-box;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+.tile-progress .tile-header {
+padding: 15px 20px;
+padding-bottom: 40px;
+}
+.tile-progress .tile-progressbar {
+height: 4px;
+background: rgba(0,0,0,0.18);
+margin: 0;
+}
+.tile-progress .tile-progressbar span {
+background: #08b4df;
+}
+.tile-progress .tile-progressbar span {
+display: block;
+background: #08b4df;
+width: 0;
+height: 100%;
+-webkit-transition: all 1.5s cubic-bezier(0.230,1.000,0.320,1.000);
+-moz-transition: all 1.5s cubic-bezier(0.230,1.000,0.320,1.000);
+-o-transition: all 1.5s cubic-bezier(0.230,1.000,0.320,1.000);
+transition: all 1.5s cubic-bezier(0.230,1.000,0.320,1.000);
+}
+.tile-progress .tile-footer {
+padding: 20px;
+text-align: right;
+background: rgba(0,0,0,0.1);
+-webkit-border-radius: 0 0 3px 3px;
+-webkit-background-clip: padding-box;
+-moz-border-radius: 0 0 3px 3px;
+-moz-background-clip: padding;
+border-radius: 0 0 3px 3px;
+background-clip: padding-box;
+-webkit-border-radius: 0 0 3px 3px;
+-moz-border-radius: 0 0 3px 3px;
+border-radius: 0 0 3px 3px;
+}
+
+.tile-progress {
+background-color: #303641;
+color: #fff;
+}
+
+.tile-progress.tile-aqua {
+background-color: #fff;
+color: #000;
+}
+.tile-progress .panel{
+  margin-bottom: 0px;
+}
+.color-blue-text{
+  color: #08b4df !important;
+}
+
+.mt40{
+  margin-top: 40px;
+}
+
+.mt0{
+  margin-top: 0;
+}
+.ref-points{
+  text-align: center;
+display: inline-block;
+width: 90px;
+color: #fff;
+border-radius: 12px;
+border: black 2px solid;
+}
+.l1{
+  background-color: #d95d3f;
+}
+.l2{
+  background-color: #ffb933;
+  color: #000;
+}
+.l3{
+  background-color: #45a0df;
+}
+.l4{
+  background-color: #91c033;
+}
+.shadow{
+  background-color: rgba(99, 99, 99, 0.32);
+height: 144px;
+position: absolute;
+width: 100%;
+bottom: 4px;
+}
+
+.shadow-point{
+  background-color: #0b949a;
+color: #fff;
+padding: 5px 25px;
+border-radius: 18px;
+float: right;
+margin-top: -15px;
+margin-right: 140px;
+border: black 2px solid;
+}
+.bg-grey{
+  background-color: #e7e7e7;
+}
